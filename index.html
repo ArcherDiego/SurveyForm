@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name</label>
+    <input id="name" type="name" placeholder="Enter your name" !required>
+    <br>
+    <label id="email-label" for="email">Email</label>
+    <input id="email" type="email" placeholder="Enter your e-mail" !required>
+    <br>
+    <label id="number-label" for="number">Age(optional)</label>
+    <input id="number" type="number" placeholder="Age">
+    <br>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <input id="dropdown" name="radio" type="radio">
+    <label for="dropdown">Definitely</label>
+    <br>
+    <input id="dropdown" name="radio" type="radio">
+    <label for="dropdown">Maybe</label>
+    <br>
+    <input id="dropdown" name="radio" type="radio">
+    <label for="dropdown">Not Sure</label>
+    <br>
+    <p>What would you like to see improved? (Check all that apply)</p>
+    <input type="checkbox" name="checkbox" value="Front-endProjects">
+    <label for="">Front-end Projects</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="Back-endProjects">
+    <label for="">Back-end Projects</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="DataVisualization">
+    <label for="">Data Visualization</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="Challenges">
+    <label for="">Challenges</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="OpenSourceCommunity">
+    <label for="">Open Source Community</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="Gitter-help-rooms">
+    <label for="">Gitter help rooms</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="Videos">
+    <label for="">Videos</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="CityMeetups">
+    <label for="">City Meetups</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="Wiki">
+    <label for="">Wiki</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="Forum">
+    <label for="">Forum</label>
+    <br>
+    <input type="checkbox" name="checkbox" value="AdditionalCourses">
+    <label for="">Additional Courses</label>
+    <br>
+    <p>Any comments or suggestions?</p>
+    <input type="textarea">
+  </form>  
+  <button type="submit" form="survey-form" value="Submit">Submit</button>
+</body>
+</html>
